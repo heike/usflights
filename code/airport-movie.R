@@ -4,7 +4,7 @@ flights <- read.csv("http://www.public.iastate.edu/~hofmann/looking-at-data/data
 
 source("airport-extra.R")
 
-plotMap(getFlights(flights, 600, 2), 600) 
+plotMap(getFlights(flights, 600, 2), 600) # first still picture for all flights that are in the air between 6:00 am and 6:02 am. 
 
 mins <- seq(0,58, by=2)
 hour <- seq(600, 1200, by=100)
